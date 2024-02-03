@@ -8,6 +8,8 @@ html , body{
     height: 100%;
     width: 100%;
     background-color:#000000;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(50, 50, 50) rgba(0, 0, 0, 0.048);
 
 }
 .nav{
@@ -24,12 +26,36 @@ html , body{
     text-decoration: none;
     font-size: 2.5vh;
 }
+.login{
+    color: black !important;
+    height: 4vh;
+    width: auto;
+    text-align: center;
+    padding: 1vh 2vh ;
+    border-radius: 2vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    filter: drop-shadow(0 0 3px rgb(187, 187, 187));
+}
+.login:hover{
+    background-color: #000000;
+    color: white !important;
+    filter: drop-shadow(0 0 3px rgb(39, 39, 39));
+
+
+}
 .more{
     width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
    
+}
+.more a{
+    text-transform: capitalize;
 }
 .x{
     display: none;
